@@ -1,0 +1,11 @@
+# 1. Ignore local raw datasets (Hides heavy sensor files from GitHub)
+Data_Hydak/
+Data_Labview/
+
+# 2. Ignore Python environment and runtime garbage caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 3. Ignore Excel temporary swap files (if you open Excel files while coding)
+~$*.xlsx
